@@ -259,7 +259,17 @@ x <- terra::classify(treeMap, rcl = MapCodeMatrix)
 #################
 
 
+x
 
+class       : SpatRaster 
+dimensions  : 4167, 5991, 1  (nrow, ncol, nlyr)
+resolution  : 70.71068, 70.71068  (x, y)
+extent      : 377606.7, 801234.4, 3814648, 4109299  (xmin, xmax, ymin, ymax)
+coord. ref. : NAD83 / UTM zone 17N (EPSG:26917) 
+source(s)   : memory
+name        :    CN 
+min value   :     0 
+max value   : 78735 
 
 treeMap
 plot(treeMap)
